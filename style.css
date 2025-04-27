@@ -11,3 +11,14 @@ body{
     overflow: hidden;
     background: #2f363e;
 }
+.clock {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 2;
+    box-shadow: inset 5px 5px 25px rgba(0,0,0,0.25);
+    border-radius: 50%;
+}
