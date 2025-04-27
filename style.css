@@ -36,3 +36,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+#time .circle svg {
+    position: relative;
+}
+#time .circle:nth-child(1) svg {
+    width: 250px;
+    height: 250px;
+}
+#time .circle:nth-child(2) svg {
+    width: 210px;
+    height: 250px;
+}
+#time .circle:nth-child(3) svg {
+    width: 170px;
+    height: 170px;
+}
