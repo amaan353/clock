@@ -38,6 +38,7 @@ body {
 }
 #time .circle svg {
     position: relative;
+    transform: rotate(270deg);
 }
 #time .circle:nth-child(1) svg {
     width: 250px;
@@ -69,6 +70,6 @@ body {
     stroke-dashoffset: 630;
 }
 #time .circle:nth-child(3) svg circle {
-    stroke-dasharray: 630;
-    stroke-dashoffset: 630;
+    stroke-dasharray: 510;
+    stroke-dashoffset: 510;
 }
