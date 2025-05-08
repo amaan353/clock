@@ -95,3 +95,23 @@ body {
     0 0 60px var(--clr),
     0 0 80px var(--clr);
 }
+.niddles {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 10;
+}
+.niddles i {
+    position: absolute;
+    width: 2px;
+    background: var(--clr2);
+    height: 50%;
+    opacity: 0.75;
+    border-radius: 6px;
+    transform-origin: bottom;
+    transform: scaleY(0.5);
+}
