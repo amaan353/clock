@@ -146,12 +146,11 @@ body {
     inset: 55px;
     text-align: center;
     color: #999;
-    font-family: consolas;
-    transform: rotate(calc(30deg * var (--i)));
+    font-family: 'Courier New', Courier, monospace;
+    transform: rotate(calc(30deg * var(--i)));
 }
 #time span b {
     font-size: 0.75em;
     font-weight: 500;
     display: inline-block;
-    transform: rotate(calc(-30deg * var (--i)));
 }
